@@ -1,0 +1,33 @@
+{
+    "name": "jezzdk/statamic-git-sync",
+    "autoload": {
+        "psr-4": {
+            "Jezzdk\\StatamicGitSync\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jess Stopa"
+        }
+    ],
+    "support": {
+        "email": "jess@stopa.dk"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Git Sync",
+            "description": "Statamic Git Sync addon",
+            "editions": [
+                "free"
+            ]
+        },
+        "laravel": {
+            "providers": [
+                "Jezzdk\\StatamicGitSync\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "gitonomy/gitlib": "^1.2"
+    }
+}
